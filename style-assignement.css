@@ -3,10 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-
-
-
-
 /* ------------------------------
             RESET
  ---------------------------------*/
@@ -88,7 +84,9 @@
 /* ------------------------------
             FLEXBOX
  ---------------------------------*/
-
+.txt-center{
+    text-align: center;
+}
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -101,11 +99,15 @@
 .align-center {
     align-items: center;
 }
-
+.block{
+    display: inline-block;
+}
 .justify-center {
     justify-content: center;
 }
-
+.justify-end{
+    justify-content: flex-end;
+}
 .gap-8 {
     gap: 8px;
 }
@@ -227,7 +229,7 @@
 }
 
 .marron {
-    color: #3E2C23;
+    background-color: #6c574d;
 }
 
 /* TAILLES IMAGES */
@@ -243,3 +245,27 @@
     padding: 12px 38px;
 }
 
+.btn1{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    display: inline-block; /* change son comportement pour qu'il devienne un inline block*/
+    border-radius: 10px;
+    background-color: rgb(251, 251, 251);
+}
+
+.bg-gray{
+    background-color: red}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.card{
+    background-color: rgb(142, 177, 244);
+    padding: 30px;
+    width: 20%;
+    border-radius: 30px;
+
+}
