@@ -156,6 +156,9 @@
 .mr-16{
     margin-right    : 16px;
 }
+.mr-32{
+    margin-right: 32px;
+}
 
 /* padding */
 
@@ -190,7 +193,7 @@
     padding-bottom: 128px;
 }
 
-.
+
 /* ------------------------------
             CONTAINER
  ---------------------------------*/
@@ -229,7 +232,7 @@
 }
 
 .marron {
-    background-color: #6c574d;
+    color: #6c574d;
 }
 
 /* TAILLES IMAGES */
@@ -269,3 +272,4 @@
     border-radius: 30px;
 
 }
+
