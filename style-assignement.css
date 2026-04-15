@@ -150,8 +150,8 @@
     margin-bottom: 128px;
 }
 
-.ml-64{
-    margin-left: 64px;
+.mb-64{
+    margin-bottom: 64px;
 }
 .mr-16{
     margin-right    : 16px;
@@ -266,10 +266,16 @@
 }
 
 .card{
-    background-color: rgb(142, 177, 244);
+    background-color: rgb(249, 249, 249);
     padding: 30px;
     width: 20%;
     border-radius: 30px;
 
+}
+
+.pdp{
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
 }
 
